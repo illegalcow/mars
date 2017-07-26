@@ -1,8 +1,10 @@
 <div class="jumbotron">
   <h1>Welcome to Mars!</h1>
   <p>now Login or create a new user</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Login</a></p>
-<p><a class="btn btn-primary btn-lg" href="#" role="button">register</a></p>
+  
+<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+<%= link_to "Log in", new_user_session_path, class: "btn btn-primary btn-lg" %>
+<%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary btn-lg" %>
 </div>
 
 <h1>A Social network for Enebakk Ungdomskole</h1>
