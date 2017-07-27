@@ -30,6 +30,8 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'gravtastic'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

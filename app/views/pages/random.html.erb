@@ -2,4 +2,10 @@
     <h1>
         <%= @random_text %>
     </h1>
+    
+    </h1>
+        <% if current_user.admin? %>
+            <h2>secret text only for admin</h2>
+        <% end %>
+    </h1>
 </center>
