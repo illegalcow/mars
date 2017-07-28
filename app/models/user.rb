@@ -9,4 +9,5 @@ gravtastic
          
          
   has_many :posts
+  has_many :messages
 end
